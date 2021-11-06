@@ -1,0 +1,98 @@
+html {
+    background-image: url(../Img/Background.png);
+    background-size: 38.5%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#editar {
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 400px;
+    display: flex;
+}
+
+#logo {
+    margin-left: 32.4%;
+    margin-top: 18%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+#edit {
+    display: flex;
+    margin-left: 58.5%;
+    margin-top: -42%;
+    margin-bottom: 0.5%;
+    width: 20%;
+}
+
+.inputs {
+    margin-left: 56.5%;
+    margin-top: 1%;
+    width: 24.5%;
+    height: 45px;
+    border-color: turquoise;
+    font-size: 150%;
+    font-family: bahnschrift;
+    border-radius: 7px;
+}
+
+#person {
+    display: flex;
+    margin-left: 53%;
+    width: 50px;
+    margin-top: -35.1%;
+}
+
+#Email {
+    display: flex;
+    margin-left: 53%;
+    width: 50px;
+    margin-top: 1.2%;
+}
+
+#telefone {
+    display: flex;
+    margin-left: 53.2%;
+    width: 45px;
+    margin-top: 1.2%;
+}
+
+.adress {
+    display: flex;
+    margin-left: 53.3%;
+    width: 42px;
+    margin-top: 1.2%;
+    margin-bottom: 1.55%;
+}
+
+#senha {
+    display: flex;
+    margin-left: 53%;
+    width: 55px;
+    margin-top: -0.5%;
+}
+
+#finalizar {
+    margin-left: 60%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#voltar {
+    margin-left: 87%;
+    margin-top: -1.5%;
+    cursor: pointer;
+
+}
+
+#logout {
+    margin-left: 89%;
+    margin-top: -6.5%;
+    width: 10%;
+    display: flex;
+    cursor: pointer;
+}

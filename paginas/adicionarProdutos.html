@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Produtos</title>
+    <link rel="icon" href="../Img/gas.png">
+    <link rel="stylesheet" href="../CSS/addProdutos.css">
+    <script src="../js/addProdutos.js"></script>
+</head>
+<body>
+    <img src="../Img/addText.png" alt="" id="addText">
+
+<form action="produtos.html" onsubmit="return valida()" id="form">
+
+    <input type="text" id="nomeProduto" placeholder="Nome do produto:">
+    <input type="number" id="precoBalcao" placeholder="Preço no balcão:">
+    <input type="number" id="precoEntrega" placeholder="Preço entrega:">
+    <input type="text" id="regiao" placeholder="Região:">
+    <input type="file" id="imagem" placeholder="Anexar imagem">
+    <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descrição:"></textarea>
+
+    <button type="submit" id="buttonSub" onclick="return valida()">Adicionar</button>
+</form>
+<a href="produtos.html"><button id="voltar">Voltar</button></a>
+<img src="../Img/Anex.png" alt="" id="anex">
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antunes'gas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/Img/gas.png">
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+    <img src="img/Bemvindo.png" alt="Bem vindo" id="welcome">
+    <div id="subtitle">
+        Olá! se você já possui uma conta em nosso site, faça login abaixo!
+    </div>
+    <a href="paginas/login.html"><img src="img/login.png" alt="botão de login" id="login"></a>
+    <img src="/Img/gas.png" alt="logo gas" id="logo">
+    
+    <img src="img/Criar.png" alt="Criar conta" id="create">
+
+    <form action="paginas/produtos.html" onsubmit="return valida()" id="form">
+        
+        <input type="text" class="inputs" name="nome" id="nome" placeholder="Nome da Empresa">
+        <input type="email" class="inputs" name="email" id="email" placeholder="Email">
+        <input type="tel" class="inputs" name="telefone" id="telefone" placeholder="Telefone">
+        <input type="text" class="inputs" name="endereco" id="endereco" placeholder="Endereço">
+        <input type="number" class="inputs" name="numeroCasa" id="numeroCasa" placeholder="Número">
+        <input type="text" class="inputs" name="bairro" id="bairro" placeholder="Bairro">
+        <input type="number" class="inputs" name="cep" id="cep" placeholder="CEP">
+        <input type="text" class="inputs" name="cidadeEstado" id="cidadeEstado" placeholder="Cidade e Estado">
+        <input type="password" class="inputs" name="senha" id="senha" placeholder="Senha">
+    
+        <img src="img/person.png" alt="icone de pessoa" id="person">
+        <img src="img/Email.png" alt="icone de pessoa" id="Email">
+        <img src="img/telephone.png" alt="icone de pessoa" id="telefoneIcon">
+        <img src="img/adress.png" alt="icone de pessoa" class="adress">
+        <img src="img/adress.png" alt="icone de pessoa" class="adress">
+        <img src="img/adress.png" alt="icone de pessoa" class="adress">
+        <img src="img/adress.png" alt="icone de pessoa" class="adress">
+        <img src="img/adress.png" alt="icone de pessoa" class="adress">
+        <img src="img/lock.png" alt="icone de pessoa" id="senhaIcon">
+    
+        <span id="cadastrar"><a href="#" onclick="return valida()"></a></span> 
+
+        </form>
+    
+</body>
+</html>

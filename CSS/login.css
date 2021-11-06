@@ -1,0 +1,168 @@
+html {
+    background-image: url(../Img/loginbackground.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+#login {
+    margin-left: 48%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 20%;
+    display: flex;
+}
+
+#email {
+    width: 25%;
+    margin-left: 46%;
+    height: 40px;
+    margin-bottom: 1%;
+    font-size: 150%;
+    font-family: bahnschrift;
+    border-radius: 7px;
+    border-color: turquoise;
+}
+
+#senha {
+    width: 25%;
+    margin-left: 46%;
+    height: 40px;
+    font-size: 150%;
+    font-family: bahnschrift;
+    border-radius: 7px;
+    border-color: turquoise;
+}
+
+#emailIcon {
+    display: flex;
+    margin-left: 42.5%;
+    width: 50px;
+    margin-top: -6.5%;
+    margin-bottom: 1%;
+}
+
+#senhaIcon {
+    display: flex;
+    margin-left: 42.35%;
+    width: 55px;
+    margin-top: -0.5%;
+}
+
+#loginButton {
+    width: 200px;
+    margin-top: 3%;
+    margin-left: 50.2%;
+}
+
+#voltar {
+    width: 150px;
+    margin-left: 50.2%;
+    display: flex;
+    margin-top: 4.5%;
+}
+
+#forget {
+    font-family: bahnschrift;
+    color: black;
+    display: flex;
+    margin-left: 54%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#gas {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 13%
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+span{
+  position: absolute;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 41px;
+}
+span a:before,
+span a:after{
+  position: absolute;
+  content: "Logar";
+  height: 50px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid rgba(23,188,155,255);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #fff;
+  background: rgba(23,188,155,255);
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: rgba(23,188,155,255);
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+div{
+  position: absolute;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+div a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 41px;
+}
+div a:before,
+div a:after{
+  position: absolute;
+  content: "Voltar";
+  height: 50px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid rgba(23,188,155,255);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+div a:before{
+  color: #fff;
+  background: rgba(23,188,155,255);
+  transform: rotateY(0deg) translateZ(25px);
+}
+div a:after{
+  color: rgba(23,188,155,255);
+  transform: rotateX(90deg) translateZ(25px);
+}
+div a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
